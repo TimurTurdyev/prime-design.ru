@@ -1,0 +1,8 @@
+#require valid-user
+#Authname "Basic Auth"
+#Authtype Basic
+#AuthUserFile /var/www/pimedesi/data/www-auth/.htpasswd
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^(.*)$ public/$1 [L] # Перенаправляем весь запрос в папку public
+</IfModule>

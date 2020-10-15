@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="cadf5ad6-7438-4d0d-b368-be77272ed7e6" name="Prime-Laravel" url="http://185.219.42.146">
+        <fileTransfer rootFolder="/www/prime-design.ru" host="185.219.42.146" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
